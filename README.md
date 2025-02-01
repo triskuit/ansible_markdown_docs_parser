@@ -7,7 +7,9 @@ Includes
 
 ## Setup
 To run locally, clone this repo, install dependencies from `reqruirements.txt`, and setup authentication (instructions provided below)
-To run on Google Colab, open a new notebook in Colab and select Github, enter [URL] and select the `notebook.ipynb`.
+To run on Google Colab, open a new notebook in Colab and select Github, enter https://github.com/triskuit/ansible_markdown_docs_parser and select the `notebook.ipynb`. Follow the authentication instructions to setup Google Docs API access.
+
+In both cases your markdown file should be uploaded to your working directory and named `note.md`
 
 ### Authentication
 Authenticating with Google Docs requires setting up a project within Google Cloud Console and then creating and downloading the appropriate credentials.
@@ -26,4 +28,4 @@ Locally install dependencies with `pip install -r requirements.txt`
 On Colab run the `!pip install google-....` line
 
 ## Colab
-Example here [URL]
+Example [here](https://colab.research.google.com/drive/1Ld83Um6v_ck2vu0iNM9gr6Qdhy4VDOLA?usp=sharing)
